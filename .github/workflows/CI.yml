@@ -83,6 +83,6 @@ jobs:
         shell: julia --project=docs --color=yes {0}
         run: |
           using Documenter: DocMeta, doctest
-          using LocalRegistrator
-          DocMeta.setdocmeta!(LocalRegistrator, :DocTestSetup, :(using LocalRegistrator); recursive=true)
-          doctest(LocalRegistrator)
+          using SortedSequences
+          DocMeta.setdocmeta!(SortedSequences, :DocTestSetup, :(using SortedSequences); recursive=true)
+          doctest(SortedSequences)
