@@ -8,21 +8,21 @@ Construct a vector by repeating the elements in `u` `m` times.
 # Examples:
 ```jldoctest
 julia> u = [0.0,1.0,2.5,3.0]
-4-element Array{Float64,1}:
+4-element Vector{Float64}:
  0.0
  1.0
  2.5
  3.0
 
 julia> m = [2,1,2,3]
-4-element Array{Int64,1}:
+4-element Vector{Int64}:
  2
  1
  2
  3
 
 julia> construct_vector(u, m)
-8-element Array{Float64,1}:
+8-element Vector{Float64}:
  0.0
  0.0
  1.0

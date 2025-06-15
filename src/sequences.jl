@@ -282,7 +282,7 @@ leads to an unsorted sequence.
 julia> v = NonDecreasingVector([1,2,3,4]);
 
 julia> insert!(v, 3, 2)
-5-element Array{Int64,1}:
+5-element Vector{Int64}:
  1
  2
  2
@@ -292,7 +292,7 @@ julia> insert!(v, 3, 2)
 julia> v = IncreasingVector([1,2,4,5]);
 
 julia> insert!(v, 3, 3)
-5-element Array{Int64,1}:
+5-element Vector{Int64}:
  1
  2
  3
