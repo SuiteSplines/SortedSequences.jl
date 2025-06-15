@@ -1,0 +1,13 @@
+# API
+```@docs
+Base.insert!
+SortedSequences.IncreasingSequence
+SortedSequences.IncreasingVector
+SortedSequences.NonDecreasingSequence
+SortedSequences.NonDecreasingVector
+SortedSequences.SortedSequence
+SortedSequences.Unique
+SortedSequences.construct_vector
+SortedSequences.deconstruct_vector
+SortedSequences.global_insert
+```
